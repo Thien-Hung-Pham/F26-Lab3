@@ -10,11 +10,8 @@
 
 values = []
 
-while True:
-    user_input = input("Enter a number (or 'done' to finish): ")
-    if user_input.lower() == 'done':
-        break
-
+while len(values) < 6:
+    user_input = input("Enter a number: ")
     number = int(user_input)
     values.append(number)
 
