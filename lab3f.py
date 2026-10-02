@@ -2,7 +2,7 @@
 
 #!/usr/bin/env python3
 # Author: Thien Hung Pham
-# Date:
+# Date: 10/02/2026
 # Purpose: Two Dimensional Lists
 # Usage: ./lab3f.py
 

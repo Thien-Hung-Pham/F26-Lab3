@@ -2,7 +2,7 @@
 
 #!/usr/bin/env python3
 # Author: Thien Hung Pham
-# Date:
+# Date: 10/02/2026
 # Purpose: Using a list in a loop and modifying the list
 # Usage: ./lab3g.py
 
@@ -21,5 +21,8 @@ while True:
 for i in range(len(values)):
     values[i] = values[i] * 10
 
-for value in values[::-1]:
+values.reverse()
+
+for value in values:
     print(value)
+
